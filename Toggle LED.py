@@ -1,5 +1,5 @@
 import RPi.GPIO as GPIO
-import time
+import time               #in this program we are toggling the LED 
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings (False)
 GPIO.setup(18,GPIO.OUT)
