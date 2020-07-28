@@ -12,3 +12,9 @@ GPIO.output(17,GPIO.LOW)
 GPIO.output(16,GPIO.LOW)
 y=int (input)
 If (y==1):
+   GPIO.output(18,GPIO.HIGH)
+elif (y==2):
+   GPIO.output(17,GPIO.HIGH)
+else :
+   GPIO.output(16,GPIO.HIGH)
+
