@@ -11,10 +11,10 @@ GPIO.output(18,GPIO.LOW)
 GPIO.output(17,GPIO.LOW)
 GPIO.output(16,GPIO.LOW)
 y=int (input)
-If (y==1):
+If (y==1):                        #print 1 for green
    GPIO.output(18,GPIO.HIGH)
-elif (y==2):
+elif (y==2):                      #print 2 for blue
    GPIO.output(17,GPIO.HIGH)
-else :
+else :                            #print 3 for yellow)
    GPIO.output(16,GPIO.HIGH)
 
