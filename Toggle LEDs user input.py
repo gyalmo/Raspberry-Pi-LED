@@ -15,6 +15,6 @@ If (y==1):                        #print 1 for green
    GPIO.output(18,GPIO.HIGH)
 elif (y==2):                      #print 2 for blue
    GPIO.output(17,GPIO.HIGH)
-else :                            #print 3 for yellow)
+else :                            #print 3 for yellow
    GPIO.output(16,GPIO.HIGH)
 
