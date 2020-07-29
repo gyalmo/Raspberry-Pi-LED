@@ -12,7 +12,7 @@ GPIO.output(17,GPIO.LOW)
 GPIO.output(16,GPIO.LOW)
 print (“ write GREEN,BLUE,YELLOW”)
 y= str (input())
-If (y== “green” or “GREEN”):
+If (y== “green” or “GREEN”):   #string and taking user input
    GPIO.output(18,GPIO.HIGH)
 elif (y== “blue” or “BLUE”):
    GPIO.output(17,GPIO.HIGH)
