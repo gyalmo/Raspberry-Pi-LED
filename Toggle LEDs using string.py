@@ -20,6 +20,6 @@ elif (y== “yellow” or “YELLOW”):
    GPIO.output(16,GPIO.HIGH)
 else:
    GPIO.output(18,GPIO.LOW)
-   GPIO.output(17,GPIO.LOW)
+   GPIO.output(17,GPIO.LOW
    GPIO.output(16,GPIO.LOW)
 
